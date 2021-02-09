@@ -45,12 +45,8 @@
             this.btnStart = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.trafficLight4 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
-            this.trafficLight1 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
-            this.trafficLight3 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
-            this.trafficLight2 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
@@ -58,11 +54,15 @@
             this.timer5 = new System.Windows.Forms.Timer(this.components);
             this.timer6 = new System.Windows.Forms.Timer(this.components);
             this.timer7 = new System.Windows.Forms.Timer(this.components);
-            this.timer8 = new System.Windows.Forms.Timer(this.components);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.timer8 = new System.Windows.Forms.Timer(this.components);
+            this.trafficLight3 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
+            this.trafficLight2 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
+            this.trafficLight1 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
+            this.trafficLight4 = new TrafficLightSimulator_Aplicada.RoundPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.car1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.car2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.car3)).BeginInit();
@@ -75,10 +75,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.car11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.car10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.car12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trafficLight4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trafficLight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trafficLight3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trafficLight2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trafficLight1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trafficLight4)).BeginInit();
             this.SuspendLayout();
             // 
             // car1
@@ -87,7 +87,7 @@
             this.car1.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
             this.car1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car1.Image = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
-            this.car1.Location = new System.Drawing.Point(166, 166);
+            this.car1.Location = new System.Drawing.Point(170, 166);
             this.car1.Name = "car1";
             this.car1.Size = new System.Drawing.Size(87, 63);
             this.car1.TabIndex = 0;
@@ -147,7 +147,7 @@
             this.car4.BackColor = System.Drawing.Color.Transparent;
             this.car4.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Izquierda;
             this.car4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car4.Location = new System.Drawing.Point(436, 219);
+            this.car4.Location = new System.Drawing.Point(435, 219);
             this.car4.Name = "car4";
             this.car4.Size = new System.Drawing.Size(83, 57);
             this.car4.TabIndex = 0;
@@ -234,6 +234,7 @@
             this.btnStart.TabIndex = 3;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // label1
             // 
@@ -255,65 +256,53 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "0";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(260, 261);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(21, 24);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "0";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(411, 249);
+            this.label4.Location = new System.Drawing.Point(260, 261);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(21, 24);
             this.label4.TabIndex = 4;
             this.label4.Text = "0";
             // 
-            // trafficLight4
+            // label3
             // 
-            this.trafficLight4.BackColor = System.Drawing.Color.Red;
-            this.trafficLight4.Location = new System.Drawing.Point(285, 258);
-            this.trafficLight4.Name = "trafficLight4";
-            this.trafficLight4.Size = new System.Drawing.Size(27, 28);
-            this.trafficLight4.TabIndex = 6;
-            this.trafficLight4.TabStop = false;
-            // 
-            // trafficLight1
-            // 
-            this.trafficLight1.BackColor = System.Drawing.Color.Red;
-            this.trafficLight1.Location = new System.Drawing.Point(247, 201);
-            this.trafficLight1.Name = "trafficLight1";
-            this.trafficLight1.Size = new System.Drawing.Size(27, 28);
-            this.trafficLight1.TabIndex = 6;
-            this.trafficLight1.TabStop = false;
-            // 
-            // trafficLight3
-            // 
-            this.trafficLight3.BackColor = System.Drawing.Color.Red;
-            this.trafficLight3.Location = new System.Drawing.Point(374, 156);
-            this.trafficLight3.Name = "trafficLight3";
-            this.trafficLight3.Size = new System.Drawing.Size(27, 28);
-            this.trafficLight3.TabIndex = 6;
-            this.trafficLight3.TabStop = false;
-            // 
-            // trafficLight2
-            // 
-            this.trafficLight2.BackColor = System.Drawing.Color.Red;
-            this.trafficLight2.Location = new System.Drawing.Point(407, 218);
-            this.trafficLight2.Name = "trafficLight2";
-            this.trafficLight2.Size = new System.Drawing.Size(27, 28);
-            this.trafficLight2.TabIndex = 6;
-            this.trafficLight2.TabStop = false;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(411, 249);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 24);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "0";
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // timer4
+            // 
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            // 
+            // timer5
+            // 
+            this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
+            // 
+            // timer6
+            // 
+            this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
+            // 
+            // timer7
+            // 
+            this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
             // 
             // comboBox1
             // 
@@ -339,6 +328,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(42, 21);
             this.comboBox2.TabIndex = 7;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // comboBox3
             // 
@@ -351,6 +341,7 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(42, 21);
             this.comboBox3.TabIndex = 7;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // comboBox4
             // 
@@ -363,6 +354,47 @@
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(42, 21);
             this.comboBox4.TabIndex = 7;
+            this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            // 
+            // timer8
+            // 
+            this.timer8.Tick += new System.EventHandler(this.timer8_Tick_1);
+            // 
+            // trafficLight3
+            // 
+            this.trafficLight3.BackColor = System.Drawing.Color.Red;
+            this.trafficLight3.Location = new System.Drawing.Point(407, 218);
+            this.trafficLight3.Name = "trafficLight3";
+            this.trafficLight3.Size = new System.Drawing.Size(27, 28);
+            this.trafficLight3.TabIndex = 6;
+            this.trafficLight3.TabStop = false;
+            // 
+            // trafficLight2
+            // 
+            this.trafficLight2.BackColor = System.Drawing.Color.Red;
+            this.trafficLight2.Location = new System.Drawing.Point(374, 156);
+            this.trafficLight2.Name = "trafficLight2";
+            this.trafficLight2.Size = new System.Drawing.Size(27, 28);
+            this.trafficLight2.TabIndex = 6;
+            this.trafficLight2.TabStop = false;
+            // 
+            // trafficLight1
+            // 
+            this.trafficLight1.BackColor = System.Drawing.Color.Red;
+            this.trafficLight1.Location = new System.Drawing.Point(247, 201);
+            this.trafficLight1.Name = "trafficLight1";
+            this.trafficLight1.Size = new System.Drawing.Size(27, 28);
+            this.trafficLight1.TabIndex = 6;
+            this.trafficLight1.TabStop = false;
+            // 
+            // trafficLight4
+            // 
+            this.trafficLight4.BackColor = System.Drawing.Color.Red;
+            this.trafficLight4.Location = new System.Drawing.Point(299, 258);
+            this.trafficLight4.Name = "trafficLight4";
+            this.trafficLight4.Size = new System.Drawing.Size(27, 28);
+            this.trafficLight4.TabIndex = 6;
+            this.trafficLight4.TabStop = false;
             // 
             // Form1
             // 
@@ -375,12 +407,12 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.trafficLight2);
             this.Controls.Add(this.trafficLight3);
+            this.Controls.Add(this.trafficLight2);
             this.Controls.Add(this.trafficLight1);
             this.Controls.Add(this.trafficLight4);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnStart);
@@ -415,10 +447,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.car11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.car10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.car12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trafficLight4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trafficLight1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trafficLight3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trafficLight2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trafficLight1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trafficLight4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -441,12 +473,12 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
         private RoundPictureBox trafficLight4;
         private RoundPictureBox trafficLight1;
-        private RoundPictureBox trafficLight3;
         private RoundPictureBox trafficLight2;
+        private RoundPictureBox trafficLight3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
@@ -454,11 +486,11 @@
         private System.Windows.Forms.Timer timer5;
         private System.Windows.Forms.Timer timer6;
         private System.Windows.Forms.Timer timer7;
-        private System.Windows.Forms.Timer timer8;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Timer timer8;
     }
 }
 
