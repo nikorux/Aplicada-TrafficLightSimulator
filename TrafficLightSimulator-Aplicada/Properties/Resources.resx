@@ -124,28 +124,64 @@
   <data name="Carro1-Abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Carro1-Abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Carro1-Izquierda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carro1-Izquierda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Carro1-Derecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carro1-Derecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sema-Amarillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sema-Amarillo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sema-Rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sema-Rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sema-Amarillo-Lado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sema-Amarillo-Lado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sema-Rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sema-Rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sema-Rojo-Lado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sema-Rojo-Lado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Carro1-Derecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro1-Derecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sema-Verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sema-Verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sema-Rojo-Lado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sema-Rojo-Lado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sema-Verde-Lado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sema-Verde-Lado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro1-Izquierda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro1-Izquierda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sema-Amarillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sema-Amarillo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro1-Arriba - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro1-Arriba - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro1-Izquierda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro1-Izquierda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro2-Abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro2-Abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro2-Arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro2-Arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro2-Derecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro2-Derecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro2-Izquieda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro2-Izquieda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro3-Abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro3-Abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro3-Arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro3-Arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro3-Derecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro3-Derecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro4-Arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro4-Arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro4-Izquierda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro4-Izquierda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carro5-Derecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carro5-Derecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -176,15 +176,16 @@ namespace TrafficLightSimulator_Aplicada
 
         private void timer6_Tick(object sender, EventArgs e)
         {
-            if (car7.Top >= 185)
+            //185
+            if (car7.Top >= 118)
             {
                 car7.Top += 40;
             }
-            if (car8.Top >= 185)
+            if (car8.Top >= 118)
             {
                 car8.Top += 40;
             }
-            if (car9.Top >= 185)
+            if (car9.Top >= 118)
             {
                 car9.Top += 40;
             }
@@ -285,15 +286,15 @@ namespace TrafficLightSimulator_Aplicada
 
         private void timer7_Tick(object sender, EventArgs e)
         {
-            if (car4.Left <= 297)
+            if (car4.Left <= 379)
             {
                 car4.Left -= 40;
             }
-            if (car5.Left <= 297)
+            if (car5.Left <= 379)
             {
                 car5.Left -= 40;
             }
-            if (car6.Left <= 267)
+            if (car6.Left <= 379)
             {
                 car6.Left -= 40;
             }
@@ -335,15 +336,15 @@ namespace TrafficLightSimulator_Aplicada
 
         private void timer8_Tick_1(object sender, EventArgs e)
         {
-            if (car10.Top >= 272)
+            if (car10.Top <= 236)
             {
                 car10.Top -= 40;
             }
-            if (car11.Top >= 272)
+            if (car11.Top <= 236)
             {
                 car11.Top -= 40;
             }
-            if (car12.Top >= 272)
+            if (car12.Top <= 236)
             {
                 car12.Top -= 40;
             }

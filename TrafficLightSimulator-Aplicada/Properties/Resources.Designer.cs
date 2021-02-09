@@ -83,6 +83,16 @@ namespace TrafficLightSimulator_Aplicada.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Carro1_Arriba___copia {
+            get {
+                object obj = ResourceManager.GetObject("Carro1-Arriba - copia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Carro1_Derecha {
             get {
                 object obj = ResourceManager.GetObject("Carro1-Derecha", resourceCulture);
@@ -96,6 +106,116 @@ namespace TrafficLightSimulator_Aplicada.Properties {
         internal static System.Drawing.Bitmap Carro1_Izquierda {
             get {
                 object obj = ResourceManager.GetObject("Carro1-Izquierda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro1_Izquierda1 {
+            get {
+                object obj = ResourceManager.GetObject("Carro1-Izquierda1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro2_Abajo {
+            get {
+                object obj = ResourceManager.GetObject("Carro2-Abajo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro2_Arriba {
+            get {
+                object obj = ResourceManager.GetObject("Carro2-Arriba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro2_Derecha {
+            get {
+                object obj = ResourceManager.GetObject("Carro2-Derecha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro2_Izquieda {
+            get {
+                object obj = ResourceManager.GetObject("Carro2-Izquieda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro3_Abajo {
+            get {
+                object obj = ResourceManager.GetObject("Carro3-Abajo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro3_Arriba {
+            get {
+                object obj = ResourceManager.GetObject("Carro3-Arriba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro3_Derecha {
+            get {
+                object obj = ResourceManager.GetObject("Carro3-Derecha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro4_Arriba {
+            get {
+                object obj = ResourceManager.GetObject("Carro4-Arriba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro4_Izquierda {
+            get {
+                object obj = ResourceManager.GetObject("Carro4-Izquierda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Carro5_Derecha {
+            get {
+                object obj = ResourceManager.GetObject("Carro5-Derecha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

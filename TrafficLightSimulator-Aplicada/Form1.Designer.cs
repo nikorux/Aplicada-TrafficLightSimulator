@@ -84,7 +84,7 @@
             // car1
             // 
             this.car1.BackColor = System.Drawing.Color.Transparent;
-            this.car1.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
+            this.car1.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro5_Derecha;
             this.car1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car1.Image = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
             this.car1.Location = new System.Drawing.Point(170, 166);
@@ -97,7 +97,7 @@
             // car2
             // 
             this.car2.BackColor = System.Drawing.Color.Transparent;
-            this.car2.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
+            this.car2.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro3_Derecha;
             this.car2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car2.Location = new System.Drawing.Point(82, 166);
             this.car2.Name = "car2";
@@ -109,7 +109,7 @@
             // car3
             // 
             this.car3.BackColor = System.Drawing.Color.Transparent;
-            this.car3.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
+            this.car3.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro2_Derecha;
             this.car3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car3.Location = new System.Drawing.Point(-2, 166);
             this.car3.Name = "car3";
@@ -121,7 +121,7 @@
             // car6
             // 
             this.car6.BackColor = System.Drawing.Color.Transparent;
-            this.car6.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Izquierda;
+            this.car6.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro2_Izquieda;
             this.car6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car6.Location = new System.Drawing.Point(596, 217);
             this.car6.Name = "car6";
@@ -133,7 +133,7 @@
             // car7
             // 
             this.car7.BackColor = System.Drawing.Color.Transparent;
-            this.car7.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Abajo;
+            this.car7.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro2_Abajo;
             this.car7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car7.Location = new System.Drawing.Point(348, 91);
             this.car7.Name = "car7";
@@ -145,9 +145,9 @@
             // car4
             // 
             this.car4.BackColor = System.Drawing.Color.Transparent;
-            this.car4.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Izquierda;
+            this.car4.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Izquierda1;
             this.car4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car4.Location = new System.Drawing.Point(435, 219);
+            this.car4.Location = new System.Drawing.Point(436, 219);
             this.car4.Name = "car4";
             this.car4.Size = new System.Drawing.Size(83, 57);
             this.car4.TabIndex = 0;
@@ -157,7 +157,7 @@
             // car5
             // 
             this.car5.BackColor = System.Drawing.Color.Transparent;
-            this.car5.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Izquierda;
+            this.car5.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro4_Izquierda;
             this.car5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car5.Location = new System.Drawing.Point(517, 218);
             this.car5.Name = "car5";
@@ -181,7 +181,7 @@
             // car8
             // 
             this.car8.BackColor = System.Drawing.Color.Transparent;
-            this.car8.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Abajo;
+            this.car8.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro3_Abajo;
             this.car8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car8.Location = new System.Drawing.Point(348, 25);
             this.car8.Name = "car8";
@@ -193,7 +193,7 @@
             // car11
             // 
             this.car11.BackColor = System.Drawing.Color.Transparent;
-            this.car11.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Arriba;
+            this.car11.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro4_Arriba;
             this.car11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car11.Location = new System.Drawing.Point(272, 361);
             this.car11.Name = "car11";
@@ -205,9 +205,9 @@
             // car10
             // 
             this.car10.BackColor = System.Drawing.Color.Transparent;
-            this.car10.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Arriba;
+            this.car10.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro3_Arriba;
             this.car10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car10.Location = new System.Drawing.Point(272, 293);
+            this.car10.Location = new System.Drawing.Point(272, 289);
             this.car10.Name = "car10";
             this.car10.Size = new System.Drawing.Size(65, 70);
             this.car10.TabIndex = 2;
@@ -217,7 +217,7 @@
             // car12
             // 
             this.car12.BackColor = System.Drawing.Color.Transparent;
-            this.car12.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Arriba;
+            this.car12.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Arriba___copia;
             this.car12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car12.Location = new System.Drawing.Point(272, 429);
             this.car12.Name = "car12";
@@ -278,30 +278,37 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
             // 
+            this.timer2.Interval = 500;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // timer3
             // 
+            this.timer3.Interval = 500;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // timer4
             // 
+            this.timer4.Interval = 500;
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
             // timer5
             // 
+            this.timer5.Interval = 500;
             this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
             // 
             // timer6
             // 
+            this.timer6.Interval = 500;
             this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
             // 
             // timer7
             // 
+            this.timer7.Interval = 500;
             this.timer7.Tick += new System.EventHandler(this.timer7_Tick);
             // 
             // comboBox1
@@ -358,6 +365,7 @@
             // 
             // timer8
             // 
+            this.timer8.Interval = 500;
             this.timer8.Tick += new System.EventHandler(this.timer8_Tick_1);
             // 
             // trafficLight3
