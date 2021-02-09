@@ -87,7 +87,7 @@
             this.car1.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro5_Derecha;
             this.car1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.car1.Image = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Derecha;
-            this.car1.Location = new System.Drawing.Point(170, 166);
+            this.car1.Location = new System.Drawing.Point(166, 169);
             this.car1.Name = "car1";
             this.car1.Size = new System.Drawing.Size(87, 63);
             this.car1.TabIndex = 0;
@@ -99,7 +99,7 @@
             this.car2.BackColor = System.Drawing.Color.Transparent;
             this.car2.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro3_Derecha;
             this.car2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car2.Location = new System.Drawing.Point(82, 166);
+            this.car2.Location = new System.Drawing.Point(83, 168);
             this.car2.Name = "car2";
             this.car2.Size = new System.Drawing.Size(87, 63);
             this.car2.TabIndex = 0;
@@ -111,7 +111,7 @@
             this.car3.BackColor = System.Drawing.Color.Transparent;
             this.car3.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro2_Derecha;
             this.car3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car3.Location = new System.Drawing.Point(-2, 166);
+            this.car3.Location = new System.Drawing.Point(-5, 170);
             this.car3.Name = "car3";
             this.car3.Size = new System.Drawing.Size(87, 63);
             this.car3.TabIndex = 0;
@@ -123,7 +123,7 @@
             this.car6.BackColor = System.Drawing.Color.Transparent;
             this.car6.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro2_Izquieda;
             this.car6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car6.Location = new System.Drawing.Point(596, 217);
+            this.car6.Location = new System.Drawing.Point(596, 219);
             this.car6.Name = "car6";
             this.car6.Size = new System.Drawing.Size(83, 57);
             this.car6.TabIndex = 0;
@@ -135,7 +135,7 @@
             this.car7.BackColor = System.Drawing.Color.Transparent;
             this.car7.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro2_Abajo;
             this.car7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car7.Location = new System.Drawing.Point(348, 91);
+            this.car7.Location = new System.Drawing.Point(345, 90);
             this.car7.Name = "car7";
             this.car7.Size = new System.Drawing.Size(64, 66);
             this.car7.TabIndex = 1;
@@ -147,7 +147,7 @@
             this.car4.BackColor = System.Drawing.Color.Transparent;
             this.car4.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro1_Izquierda1;
             this.car4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car4.Location = new System.Drawing.Point(436, 219);
+            this.car4.Location = new System.Drawing.Point(437, 220);
             this.car4.Name = "car4";
             this.car4.Size = new System.Drawing.Size(83, 57);
             this.car4.TabIndex = 0;
@@ -159,7 +159,7 @@
             this.car5.BackColor = System.Drawing.Color.Transparent;
             this.car5.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro4_Izquierda;
             this.car5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car5.Location = new System.Drawing.Point(517, 218);
+            this.car5.Location = new System.Drawing.Point(517, 221);
             this.car5.Name = "car5";
             this.car5.Size = new System.Drawing.Size(83, 57);
             this.car5.TabIndex = 0;
@@ -183,7 +183,7 @@
             this.car8.BackColor = System.Drawing.Color.Transparent;
             this.car8.BackgroundImage = global::TrafficLightSimulator_Aplicada.Properties.Resources.Carro3_Abajo;
             this.car8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.car8.Location = new System.Drawing.Point(348, 25);
+            this.car8.Location = new System.Drawing.Point(348, 24);
             this.car8.Name = "car8";
             this.car8.Size = new System.Drawing.Size(64, 66);
             this.car8.TabIndex = 1;
@@ -228,7 +228,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(151, 35);
+            this.btnStart.Location = new System.Drawing.Point(83, 121);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 3;
@@ -318,7 +318,7 @@
             "1",
             "2",
             "3"});
-            this.comboBox1.Location = new System.Drawing.Point(211, 139);
+            this.comboBox1.Location = new System.Drawing.Point(232, 151);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(42, 21);
             this.comboBox1.TabIndex = 7;
@@ -331,7 +331,7 @@
             "1",
             "2",
             "3"});
-            this.comboBox2.Location = new System.Drawing.Point(431, 139);
+            this.comboBox2.Location = new System.Drawing.Point(431, 163);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(42, 21);
             this.comboBox2.TabIndex = 7;
@@ -442,7 +442,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Simulador - Aplicada";
             ((System.ComponentModel.ISupportInitialize)(this.car1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.car2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.car3)).EndInit();
